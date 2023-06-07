@@ -1,7 +1,8 @@
 var btnTranslate = document.querySelector("#button");
-
-btnTranslate.addEventListener("click", clickHandler);
+var textInput = document.querySelector("#input");
 
 function clickHandler() {
   console.log("Clicked");
+  console.log(textInput.value);
 }
+btnTranslate.addEventListener("click", clickHandler);
